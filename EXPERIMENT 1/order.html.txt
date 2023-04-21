@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Now</title>
+    <link
+      rel="stylesheet"
+      href="D:\Web Tech Project\Shantaksh\css\style1.css"
+    />
+  </head>
+  <body>
+    <!-- header section start here  -->
+    <header class="header">
+      <div class="logoContent">
+        <a href="#" class="logo"
+          ><img src="D:\Web Tech Project\Shantaksh\images\mylogo.png" alt=""
+        /></a>
+        <h1 class="logoName">Cake De Creations</h1>
+      </div>
+
+      <nav class="navbar">
+        <a href="D:\Web Tech Project\Shantaksh\html\index.html">Home</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\index.html#product"
+          >Products</a
+        >
+        <a href="D:\Web Tech Project\Shantaksh\html\gallery.html">Gallery</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\about.html">About Us</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\contact.html">Contact Us</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\orderform.html"
+          >Order Now</a
+        >
+      </nav>
+
+      <div class="icon">
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-bars" id="menu-bar"></i>
+      </div>
+
+      <div class="search">
+        <input type="search" placeholder="search..." />
+      </div>
+    </header>
+    <!-- header section end here  -->
+
+    <form>
+      <img
+        src="D:\Web Tech Project\Shantaksh\images\form1.png"
+        style="height: 120px"
+      />
+      <h2>Custom Cake Order Form</h2>
+
+      <div class="colm">
+        <label for="cake">Choose a Cake:</label><br />
+
+        <input type="checkbox" id="cake1" name="cake1" value="Chocolate" />
+        <label for="cake1">Chocolate</label><br />
+        <input type="checkbox" id="cake2" name="cake2" value="Yellow" />
+        <label for="cake2">Yellow</label><br />
+        <input type="checkbox" id="cake3" name="cake3" value="RedVelvet" />
+        <label for="cake3">Red Velvet</label><br />
+        <input type="checkbox" id="cake4" name="cake4" value="White" />
+        <label for="cake4">White</label><br />
+        <input type="checkbox" id="cake5" name="cake5" value="Carrot" />
+        <label for="cake5">Carrot</label><br />
+        <input type="checkbox" id="cake6" name="cake6" value="Confetti" />
+        <label for="cake6">Confetti</label><br />
+        <input type="checkbox" id="cake7" name="cake7" value="Other" />
+        <label for="cake7">Other</label><br /><br />
+
+        <label for="fill">Choose a Filling:</label><br />
+
+        <input type="checkbox" id="fill1" name="fill1" value="Chocolate" />
+        <label for="fill1">Chocolate</label><br />
+        <input type="checkbox" id="fill2" name="fill2" value="Vanilla" />
+        <label for="fill2">Vanilla</label><br />
+        <input type="checkbox" id="fill3" name="fill3" value="CreamCheese" />
+        <label for="fill3">Cream Cheese</label><br />
+        <input type="checkbox" id="fill4" name="fill4" value="ButterCream" />
+        <label for="fill4">Butter Cream</label><br />
+        <input type="checkbox" id="fill5" name="fill5" value="Other" />
+        <label for="fill5">Other</label><br /><br />
+
+        <label for="shape">Shape:</label><br />
+
+        <input type="checkbox" id="shape1" name="shape1" value="Round" />
+        <label for="shape1">Round</label><br />
+        <input type="checkbox" id="shape2" name="shape2" value="Square" />
+        <label for="shape2">Square</label><br />
+        <input type="checkbox" id="shape3" name="shape3" value="Rectangle" />
+        <label for="shape3">Rectangle</label><br />
+        <input type="checkbox" id="shape4" name="shape4" value="Heart" />
+        <label for="shape4">Heart</label><br />
+        <input type="checkbox" id="shape5" name="shape5" value="Other" />
+        <label for="shape5">Other</label><br /><br />
+
+        <label for="ice">Choose the Icing:</label><br />
+
+        <input type="checkbox" id="ice1" name="ice1" value="ButterCream" />
+        <label for="icee1">Butter Cream</label><br />
+        <input type="checkbox" id="cake2" name="cake2" value="CreamCheese" />
+        <label for="icee2">Cream Cheese</label><br />
+        <input type="checkbox" id="icee3" name="icee3" value="Vanilla" />
+        <label for="icee3">Vanilla</label><br />
+        <input type="checkbox" id="icee4" name="icee4" value="Chocolate" />
+        <label for="icee4">Chocolate</label><br />
+        <input type="checkbox" id="icee5" name="icee5" value="Fondant" />
+        <label for="icee5">Fondant</label><br />
+        <input type="checkbox" id="cake6" name="cake6" value="Other" />
+        <label for="cake6">Other</label><br /><br />
+
+        <label for="flav">Choose Flavours:</label><br />
+
+        <input type="checkbox" id="flav1" name="flav1" value="Chocolate" />
+        <label for="flav1">Chocolate</label><br />
+        <input type="checkbox" id="flav2" name="flav2" value="Vanilla" />
+        <label for="flav2">Vanilla</label><br />
+        <input type="checkbox" id="flav3" name="flav3" value="Almond" />
+        <label for="flav3">Almond</label><br />
+        <input type="checkbox" id="flav4" name="flav4" value="Pistachio" />
+        <label for="flav4">Pistachio</label><br />
+        <input type="checkbox" id="flav5" name="flav5" value="Lemon" />
+        <label for="flav5">Lemon</label><br />
+        <input type="checkbox" id="flav6" name="flav6" value="Oramge" />
+        <label for="flav6">Orange</label><br />
+        <input type="checkbox" id="flav7" name="flav7" value="ChocoChip" />
+        <label for="flav6">ChocoChip</label><br />
+        <input type="checkbox" id="flav8" name="flav8" value="DriedFruit" />
+        <label for="flav8">Dried Fruit</label><br />
+        <input type="checkbox" id="flav9" name="flav9" value="Other" />
+        <label for="flav9">Other</label><br /><br /><br /><br /><br /><br />
+      </div>
+
+      <label>Quantity:</label>
+      <input
+        type="text"
+        id="quantity"
+        placeholder="Enter Quantity"
+        required
+      /><br />
+
+      <label>Message on Cake:</label>
+      <input type="text" id="message" placeholder="Enter your message" /><br />
+
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <label for="name">Address:</label>
+      <input
+        type="text"
+        id="address"
+        name="name"
+        placeholder="Enter your address"
+        required
+      />
+
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <label for="phone">Phone:</label>
+      <input
+        type="number"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+        required
+      /><br />
+
+      <label for="name">Date Required:</label>
+      <input
+        type="date"
+        id="date"
+        name="date"
+        placeholder="Enter the date"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <style>
+      /* Product List */
+      #product-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      .product {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        width: 250px;
+      }
+
+      .product h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .product p {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .add-to-cart {
+        background-color: #3f51b5;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      .add-to-cart:hover {
+        background-color: #303f9f;
+      }
+
+      /* Shopping Cart */
+      #shopping-cart {
+        margin: 20px auto;
+        max-width: 800px;
+      }
+
+      #shopping-cart h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      #cart-items {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      #cart-items li {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+
+      #cart-items li span {
+        font-weight: bold;
+      }
+
+      #checkout {
+        background-color: #3f51b5;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      #checkout:hover {
+        background-color: #303f9f;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Product List -->
+    <div id="product-list">
+      <div class="product">
+        <h2>Chocolate Cake</h2>
+        <p>Price: $20</p>
+        <button class="add-to-cart" data-name="Chocolate Cake" data-price="20">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <h2>Vanilla Cake</h2>
+        <p>Price: $15</p>
+        <button class="add-to-cart" data-name="Vanilla Cake" data-price="15">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <h2>Red Velvet Cake</h2>
+        <p>Price: $25</p>
+        <button class="add-to-cart" data-name="Red Velvet Cake" data-price="25">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+
+    <!-- Shopping Cart -->
+    <div id="shopping-cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: <span id="cart-total">$0</span></p>
+      <button id="checkout">Checkout</button>
+    </div>
+    <script src="D:\Web Tech Project\Shantaksh\js\shoppingcart.js"></script>
+  </body>
+</html>

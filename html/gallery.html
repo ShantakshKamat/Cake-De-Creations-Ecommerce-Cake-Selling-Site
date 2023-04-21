@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="import" href="D:\Web Tech Project\Shantaksh\html\navbar.html" />
+
+    <link
+      rel="stylesheet"
+      href="D:\Web Tech Project\Shantaksh\css\gallery.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- header section start here  -->
+    <header class="header">
+      <div class="logoContent">
+        <a href="#" class="logo"
+          ><img src="D:\Web Tech Project\Shantaksh\images\mylogo.png" alt=""
+        /></a>
+        <h1 class="logoName">Cake De Creations</h1>
+      </div>
+
+      <nav class="navbar">
+        <a href="D:\Web Tech Project\Shantaksh\html\index.html">Home</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\index.html#product"
+          >Products</a
+        >
+        <a href="D:\Web Tech Project\Shantaksh\html\gallery.html">Gallery</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\about.html">About Us</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\contact.html">Contact Us</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\orderform.html"
+          >Order Now</a
+        >
+      </nav>
+
+      <div class="icon">
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-bars" id="menu-bar"></i>
+      </div>
+
+      <div class="search">
+        <input type="search" placeholder="search..." />
+      </div>
+    </header>
+    <!-- header section end here  -->
+
+    <div class="container">
+      <div class="heading">
+        <h3>Photo <span>Gallery</span></h3>
+      </div>
+      <div class="box">
+        <!-- create 3 columns -->
+        <div class="dream1">
+          <a href="D:\Web Tech Project\Shantaksh\images\1.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\1.jpg"
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\9.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\9.jpg"
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\3.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\3.jpg"
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\2.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\2.jpg"
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\5.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\5.jpg"
+          /></a>
+        </div>
+
+        <div class="dream2">
+          <a href="D:\Web Tech Project\Shantaksh\images\7.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\7.jpg" alt=""
+          /></a>
+
+          <a href="D:\Web Tech Project\Shantaksh\images\4.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\4.jpg" alt=""
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\6.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\6.jpg" alt=""
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\8.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\8.jpg" alt=""
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\9.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\9.jpg" alt=""
+          /></a>
+        </div>
+
+        <div class="dream3">
+          <a href="D:\Web Tech Project\Shantaksh\images\1.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\1.jpg" alt=""
+          /></a>
+
+          <a href="D:\Web Tech Project\Shantaksh\images\9.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\9.jpg" alt=""
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\3.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\3.jpg" alt=""
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\7.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\7.jpg" alt=""
+          /></a>
+          <a href="D:\Web Tech Project\Shantaksh\images\5.jpg"
+            ><img src="D:\Web Tech Project\Shantaksh\images\5.jpg" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="btn">
+        <a href="#">More</a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+      lightGallery(document.querySelector(".dream1"));
+      lightGallery(document.querySelector(".dream2"));
+      lightGallery(document.querySelector(".dream3"));
+    </script>
+  </body>
+</html>

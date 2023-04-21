@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake De Creations</title>
+
+    <!-- swiper link  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- cdn icon link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="D:\Web Tech Project\Shantaksh\css\style.css" />
+  </head>
+
+  <body>
+    <!-- header section start here  -->
+    <header class="header">
+      <div class="logoContent">
+        <a href="#" class="logo"
+          ><img src="D:\Web Tech Project\Shantaksh\images\mylogo.png" alt=""
+        /></a>
+        <h1 class="logoName">Cake De Creations</h1>
+      </div>
+
+      <nav class="navbar">
+        <a href="D:\Web Tech Project\Shantaksh\html\index.html">Home</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\index.html#product"
+          >Products</a
+        >
+        <a href="D:\Web Tech Project\Shantaksh\html\gallery.html">Gallery</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\about.html">About Us</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\contact.html">Contact Us</a>
+        <a href="D:\Web Tech Project\Shantaksh\html\orderform.html"
+          >Order Now</a
+        >
+      </nav>
+
+      <div class="icon">
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-bars" id="menu-bar"></i>
+      </div>
+
+      <div class="search">
+        <input type="search" placeholder="search..." />
+      </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+      <div class="homeContent" style="background-color: bisque">
+        <h2>Something sweet for everyone</h2>
+        <p style="font-weight: bold; color: firebrick; font-style: italic">
+          Cake is always a good idea
+        </p>
+        <div class="home-btn">
+          <a href="#"><button>see more</button></a>
+        </div>
+      </div>
+
+      <div class="home">
+        <table>
+          <tr>
+            <td>
+              <img
+                src="D:\Web Tech Project\Shantaksh\images\blog-img1.png"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                src="D:\Web Tech Project\Shantaksh\images\blog-img1.png"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                src="D:\Web Tech Project\Shantaksh\images\blog-img1.png"
+                alt=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="D:\Web Tech Project\Shantaksh\images\blog-img1.png"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                src="D:\Web Tech Project\Shantaksh\images\blog-img1.png"
+                alt=""
+              />
+            </td>
+            <td>
+              <img
+                src="D:\Web Tech Project\Shantaksh\images\blog-img1.png"
+                alt=""
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- home section end here  -->
+
+    <!-- product section start here  -->
+    <section class="product" id="product">
+      <div class="heading">
+        <h2>Our Top Selling Products</h2>
+      </div>
+      <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\i2.png" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Vanilla Ice</h3>
+              <p>
+                Indulge in the classic taste of our vanilla cake, a delectable
+                treat perfect for any occasion.
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\i4.png" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Chocolayer</h3>
+              <p>Every layer of chocolatty joy</p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\i3.png" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Choco fudge</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                adipisci reiciendis assumenda.
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\i6.png" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>SMberryBash</h3>
+              <p>
+                a delightful dessert that combines the sweet and tangy flavors
+                of two delicious fruits.
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\1.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Garlic Bread</h3>
+              <p>
+                flavourful bread glistened with butter and garlic ..baked to
+                perfection
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\2.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>HoneyWalnut Cake</h3>
+              <p>Sweet and with the richness of walnuts</p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\3.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Choco Crossiant</h3>
+              <p>Crunchy and Buttery filled with chocolate to the tips</p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="D:\Web Tech Project\Shantaksh\images\4.jpg" alt="" />
+            </div>
+            <div class="product-content">
+              <h3>Cookies</h3>
+              <p>Nutty and Nutricious</p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- product section end here  -->
+
+    <!-- footer section start here  -->
+
+    <footer class="footer" id="contact">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+      <div class="credit">
+        created by <span>Shantaksh Kamat | Sunidhi Naik</span> |all rights
+        reserved !
+      </div>
+    </footer>
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+  </body>
+</html>
